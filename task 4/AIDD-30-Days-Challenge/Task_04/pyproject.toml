@@ -1,0 +1,16 @@
+[project]
+name = "task-04"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit",
+    "pypdf",
+    "openai-agents",
+    "python-dotenv",
+    "pypdf2>=3.0.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["main", "extract", "agent", "app"]
